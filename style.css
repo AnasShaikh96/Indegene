@@ -1,0 +1,49 @@
+.bg {
+  background: url("images/testimonial.jpg");
+  height: 500px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: block;
+  z-index: -1;
+}
+
+h1 {
+  font-family: "Roboto", sans-serif;
+}
+
+p,
+span {
+  font-family: "Raleway", sans-serif;
+}
+
+.parallax-window {
+  min-height: 400px;
+  background: transparent;
+}
+
+.owl-dot span {
+  background: transparent !important;
+  border: 2px solid white;
+}
+.owl-dots .active span {
+  background: white !important;
+}
+
+.owl-stage .center {
+  opacity: 1 !important;
+}
+.owl-stage .active {
+  opacity: 0.5;
+}
+.owl-carousel {
+  margin: 0 !important;
+}
+.owl-item {
+  margin: 0 auto;
+}
+
+.owl-item img {
+  width: 100px !important;
+  margin: 0 auto;
+}
